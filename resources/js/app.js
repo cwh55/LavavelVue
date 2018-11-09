@@ -22,9 +22,7 @@ Vue.component('example-component', require('./components/ExampleComponent.vue'))
 import Hello from './components/Hello.vue'; // 引入Hello 组件
 
 import ElementUI from 'element-ui';
-//import 'element-ui/lib/theme-default/index.css';
 import 'element-ui/packages/theme-chalk/lib/index.css';
-
 
 Vue.use(ElementUI);
 
